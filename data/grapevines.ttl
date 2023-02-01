@@ -1,0 +1,103 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vin: <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#> .
+@prefix wekg: <http://ns.inria.fr/meteo/weatherstation/> .
+
+# White wine grape varieties
+
+vin:Chardonnay rdf:type vin:WineGrape ;
+    vin:locatedIn <wekg:weatherstation/07072>,
+ 	              <wekg:weatherstation/07149>,
+				  <wekg:weatherstation/07168>,
+				  <wekg:weatherstation/07240>,
+				  <wekg:weatherstation/07255>,
+				  <wekg:weatherstation/07280>,
+				  <wekg:weatherstation/07460>,
+				  <wekg:weatherstation/07481>,
+				  <wekg:weatherstation/07627> ;
+    vin:madeIntoWine vin:WhiteWine .
+
+vin:Chenin rdf:type vin:WineGrape ;
+    vin:locatedIn 	<wekg:weatherstation/07434>,
+					<wekg:weatherstation/07558> ;
+    vin:madeIntoWine vin:WhiteWine .
+
+vin:Grenache_blanc rdf:type vin:WineGrape ;
+    vin:locatedIn 	<wekg:weatherstation/07643>,
+					<wekg:weatherstation/07747> ;
+    vin:madeIntoWine vin:WhiteWine .	
+
+vin:Mauzac rdf:type vin:WineGrape ;
+    vin:locatedIn 	<wekg:weatherstation/07591>,
+					<wekg:weatherstation/07630>, 
+					<wekg:weatherstation/07650>, 
+					<wekg:weatherstation/07690> ;
+    vin:madeIntoWine vin:WhiteWine .
+
+vin:Muscadet rdf:type vin:WineGrape ;
+    vin:locatedIn 	<wekg:weatherstation/07222>,
+					<wekg:weatherstation/07335> ;
+    vin:madeIntoWine vin:WhiteWine .
+
+vin:Riesling rdf:type vin:WineGrape ;
+    vin:locatedIn 	<wekg:weatherstation/07190>,
+					<wekg:weatherstation/07299> ;
+    vin:madeIntoWine vin:WhiteWine .
+
+vin:Sauvignon rdf:type vin:WineGrape ;
+    vin:locatedIn 	<wekg:weatherstation/07510>,
+					<wekg:weatherstation/07607>,
+					<wekg:weatherstation/07621> ;
+    vin:madeIntoWine vin:WhiteWine .
+
+vin:Viognier rdf:type vin:WineGrape ;
+    vin:locatedIn 	<wekg:weatherstation/07535>,
+					<wekg:weatherstation/07577> ;
+    vin:madeIntoWine vin:WhiteWine .
+
+# Ref wine grape varieties
+
+vin:Carignan rdf:type vin:WineGrape; 
+    vin:locatedIn	<wekg:weatherstation/07643>, 
+					<wekg:weatherstation/07747>; 
+    vin:madeIntoWine vin:RedWine. 
+
+vin:Gamay rdf:type vin:WineGrape;
+    vin:locatedIn	<wekg:weatherstation/07460>, 
+					<wekg:weatherstation/07481>; 
+    vin:madeIntoWine vin:RedWine. 
+
+vin:Grenache rdf:type vin:WineGrape; 
+    vin:locatedIn	<wekg:weatherstation/07577>, 
+					<wekg:weatherstation/07630>; 
+    vin:madeIntoWine vin:RedWine. 
+
+vin:Mauzac rdf:type vin:WineGrape; 
+    vin:locatedIn	<wekg:weatherstation/07591>, 
+					<wekg:weatherstation/07650>, 
+					<wekg:weatherstation/07690>; 
+    vin:madeIntoWine vin:RedWine. 
+
+vin:Merlot rdf:type vin:WineGrape; 
+    vin:locatedIn	<wekg:weatherstation/07222>, 
+					<wekg:weatherstation/07240>, 
+					<wekg:weatherstation/07335>, 
+					<wekg:weatherstation/07510>, 
+					<wekg:weatherstation/07535>; 
+    vin:madeIntoWine vin:RedWine .
+
+vin:Syrah rdf:type vin:WineGrape; 
+    vin:locatedIn	<wekg:weatherstation/07558>,
+					<wekg:weatherstation/07607>,
+					<wekg:weatherstation/07621>,
+					<wekg:weatherstation/07627> ;
+    vin:madeIntoWine vin:RedWine .
+
+vin:Pinot_Noir rdf:type vin:WineGrape; 
+    vin:locatedIn	<wekg:weatherstation/07299>,
+					<wekg:weatherstation/07255>,
+					<wekg:weatherstation/07280>,
+					<wekg:weatherstation/07149>,
+					<wekg:weatherstation/07072>,
+					<wekg:weatherstation/07190>,
+					<wekg:weatherstation/07168>;
+    vin:madeIntoWine vin:RedWine .
