@@ -54,7 +54,7 @@ vin:Viognier rdf:type vin:WineGrape ;
 		  <wekg:weatherstation/07577> ;
     vin:madeIntoWine vin:WhiteWine .
 
-# Ref wine grape varieties
+# Red wine grape varieties
 
 vin:Carignan rdf:type vin:WineGrape; 
     vin:locatedIn <wekg:weatherstation/07643>, 
