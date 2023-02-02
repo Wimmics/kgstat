@@ -71,7 +71,7 @@ vin:Grenache rdf:type vin:WineGrape;
 					<wekg:weatherstation/07630>; 
     vin:madeIntoWine vin:RedWine. 
 
-vin:Mauzac rdf:type vin:WineGrape; 
+vin:Mauzac_Rose rdf:type vin:WineGrape; 
     vin:locatedIn	<wekg:weatherstation/07591>, 
 					<wekg:weatherstation/07650>, 
 					<wekg:weatherstation/07690>; 
