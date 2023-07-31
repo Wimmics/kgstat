@@ -1,6 +1,6 @@
 # KGstat
 
-This repository includes tutorial notebooks that combine querying Knowlege Graphs using SPARQL and applying statistical analysis and modeling using R as a programming language.
+This repository includes tutorial notebooks that combine querying Knowledge Graphs using SPARQL and applying statistical analysis and modeling using R as a programming language.
 
 
 In these tutorials, we demonstrate:
