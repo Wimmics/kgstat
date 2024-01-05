@@ -1,6 +1,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix vin: <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#> .
-@prefix wekg: <http://ns.inria.fr/meteo/weatherstation/> .
+@prefix wekg: <http://ns.inria.fr/meteo/> .
 
 # White wine grape varieties
 
