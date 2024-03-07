@@ -1,7 +1,7 @@
-![KGstat tree](https://github.com/Wimmics/kgstat/assets/33026767/dde277cc-3351-42fd-b974-e6e5968b4166)
+![KGstat tree Python R SPARQL](https://github.com/Wimmics/kgstat/assets/33026767/d829d115-71f9-4268-9cb8-fdeea4559ce5)
 # KGstat
 
-This repository includes tutorial notebooks that combine querying Knowledge Graphs using SPARQL and applying statistical analysis and modeling using R and Python as a programming languages.
+This repository includes tutorial notebooks that combine querying Knowledge Graphs using SPARQL and applying statistical analysis and machine learning modeling using R and Python as programming languages.
 
 
 In these tutorials, we demonstrate:
